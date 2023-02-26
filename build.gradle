@@ -32,17 +32,7 @@ tasks.withType(Test) {
     systemProperties(System.getProperties())
 }
 
-dependencies {
-    testImplementation (
-            'com.github.javafaker:javafaker:1.0.2',
-            'org.junit.jupiter:junit-jupiter-api:5.8.1',
-            'com.codeborne:selenide:6.10.1',
-            'io.qameta.allure:allure-selenide:2.20.1',
-            'org.slf4j:slf4j-simple:1.7.32',
-            'org.aeonbits.owner:owner:1.0.4'
-    )
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
+
 
 test {
     useJUnitPlatform()
