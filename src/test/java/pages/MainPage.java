@@ -13,7 +13,7 @@ public class MainPage {
 
     public MainPage openPage() {
         open("https://uk.iherb.com/");
-        $("#truste-consent-button").click();
+//        $("#truste-consent-button").click();
         return this;
     }
 
