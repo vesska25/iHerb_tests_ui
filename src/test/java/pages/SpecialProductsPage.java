@@ -8,7 +8,7 @@ public class SpecialProductsPage {
 
     public SpecialProductsPage openPage() {
         open("specials");
-        $("#truste-consent-button").click();
+//        $("#truste-consent-button").click();
         return this;
     }
 
