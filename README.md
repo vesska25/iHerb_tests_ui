@@ -55,10 +55,10 @@ test
 "-DbrowserVersion=${BROWSER_VERSION}"
 ```
 
-## <a name="RunInJenkins">Run in [Jenkins](https://jenkins.autotests.cloud/job/s.savich_asos_tests/)</a>
+## <a name="RunInJenkins">Run in [Jenkins](https://jenkins.autotests.cloud/me/my-views/view/all/job/s.savich_iherb_tests/)</a>
 Main page of the build:
 <p  align="center">
-<img src="images/asos-jenkins-mainPage.png" alt="asos-jenkins-mainPage" width="950">
+<img src="images/jenkins-iherb-project.png" alt="jenkins-iherb-project.png" width="950">
 </p>
 
 A parametrized Jenkins job:
