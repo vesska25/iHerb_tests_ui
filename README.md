@@ -66,7 +66,7 @@ A parametrized Jenkins job:
 <img src="images/jenkins-parameters.png" alt="jenkins-parameters" width="950">
 </p>
 
-# <a name="AllureReport">Test results report in [Allure Report](https://jenkins.autotests.cloud/job/s.savich_asos_tests/allure/)</a>
+# <a name="AllureReport">Test results report in [Allure Report](https://jenkins.autotests.cloud/me/my-views/view/all/job/s.savich_iherb_tests/allure/)</a>
 
 ## Main page
 Main page of Allure report contains the following blocks:
