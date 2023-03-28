@@ -9,7 +9,6 @@ public class NewProductsPage {
         $("[data-keyword='Health Topics']").shouldBe(visible);
         $("[data-keyword=Vitamins]").shouldBe(visible);
         $("[data-keyword='Bath & Personal Care']").shouldBe(visible);
-//        $("[data-keyword='iHerb Brands']").shouldBe(visible);
         return this;
     }
 }

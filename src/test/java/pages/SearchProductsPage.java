@@ -12,7 +12,7 @@ public class SearchProductsPage {
         return this;
     }
     public SearchProductsPage hoverMouseOnProduct() {
-        $("#pid_69610").hover();
+        $("[itemid=pid_69610]").hover();
         return this;
     }
     public SearchProductsPage clickOnAddToCartButton() {

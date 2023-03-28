@@ -1,4 +1,4 @@
-package com.vesska.ui;
+package com.vesska.tests;
 
 
 import com.codeborne.selenide.logevents.SelenideLogger;
@@ -12,27 +12,26 @@ import pages.MainPage;
 import pages.NewProductsPage;
 import pages.SearchProductsPage;
 import pages.SpecialProductsPage;
+import pages.SignInPage;
 
 import static com.codeborne.selenide.Selenide.closeWindow;
 
 
 public class TestBase {
-
     MainPage mainPage = new MainPage();
     NewProductsPage newProductsPage = new NewProductsPage();
     SearchProductsPage searchProductsPage = new SearchProductsPage();
     SpecialProductsPage specialProductsPage = new SpecialProductsPage();
+    SignInPage signInPage = new SignInPage();
 
     @BeforeAll
     static void beforeAll() {
         WebDriverProvider.config();
     }
-
     @BeforeEach
     void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
-
 
     @AfterEach
     void afterEach() {

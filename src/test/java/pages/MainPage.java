@@ -1,10 +1,13 @@
 package pages;
 
+import com.codeborne.selenide.Condition;
 import pages.components.SitePreference;
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static com.vesska.testdata.TestData.*;
 
 
 public class MainPage {
@@ -13,7 +16,7 @@ public class MainPage {
 
     public MainPage openPage() {
         open("https://uk.iherb.com/");
-//        $("#truste-consent-button").click();
+        $("#truste-consent-button").click();
         return this;
     }
 
@@ -28,9 +31,9 @@ public class MainPage {
     }
 
     public void verifySelectedLanguage() {
-        $(".shop-menu").shouldHave(text("Acquista"));
-        $(".brands-menu").shouldHave(text("Marchi"));
-        $(".help-with-menu").shouldHave(text("Assistenza con"));
+        $(".shop-menu").shouldHave(text(shopMenuNameItalian));
+        $(".brands-menu").shouldHave(text(brandMenuInItalian));
+        $(".help-with-menu").shouldHave(text(helpWithMenuInIntalian));
     }
 
     public MainPage clickOnSearchField() {
@@ -51,4 +54,23 @@ public class MainPage {
         $("#searchBtn").click();
         return this;
     }
+    public MainPage clickOnShareButton() {
+        $("[sbid='gh0']").click();
+        return this;
+    }
+    public MainPage verifyShareWidgetIsVisible() {
+        $(".sc-share-widget-desktop").shouldBe(Condition.visible);
+        return this;
+    }
+    public MainPage clickOnMyAccount() {
+        $(".iherb-header-account-sign-in").hover();
+        $("#menu-myaccount").click();
+        return this;
+    }
+
+    public MainPage verifySaleCategoryIsVisible() {
+        $("[data-ga-event-category=promotions]").shouldBe(visible);
+        return this;
+    }
+
 }

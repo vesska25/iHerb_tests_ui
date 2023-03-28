@@ -35,7 +35,7 @@ tasks.withType(Test) {
 dependencies {
     testImplementation (
             'org.junit.jupiter:junit-jupiter-api:5.8.1',
-            "com.codeborne:selenide:6.11.2",
+            "com.codeborne:selenide:6.12.4",
             'io.qameta.allure:allure-selenide:2.20.1',
             "org.slf4j:slf4j-simple:2.0.6",
             'org.aeonbits.owner:owner:1.0.4'

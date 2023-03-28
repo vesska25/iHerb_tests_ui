@@ -8,7 +8,7 @@ public class SpecialProductsPage {
 
     public SpecialProductsPage openPage() {
         open("specials");
-//        $("#truste-consent-button").click();
+        $("#truste-consent-button").click();
         return this;
     }
 
@@ -17,7 +17,7 @@ public class SpecialProductsPage {
         return this;
     }
     public SpecialProductsPage verifyHiddenTitleIsNowVisible() {
-        $(".img-wrapper").$("[title=Pets]").shouldBe(visible);
+        $(".img-wrapper [title=Pets]").shouldBe(visible);
         return this;
     }
 }

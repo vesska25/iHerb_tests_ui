@@ -1,4 +1,4 @@
-package com.vesska.ui;
+package com.vesska.testdata;
 
 public class TestData {
 
@@ -6,6 +6,9 @@ public class TestData {
                         link = "New",
                         productName1 = "Solgar",
                         productName2 = "Solgar Vitamin C",
-                        searchResults = "Search Results for \"Solgar\"";
+                        shopMenuNameItalian = "Acquista",
+                        brandMenuInItalian = "Marchi",
+                        helpWithMenuInIntalian = "Assistenza con";
+
 
 }
