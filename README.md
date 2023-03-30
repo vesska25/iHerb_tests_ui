@@ -87,8 +87,35 @@ Full info about each test can be shown: tags, severity, duration, detailed steps
   <img src="images/Allure-suits.png" alt="Allure-suits" width="1150">
 </p>
 
+# Allure TestOps integration</a>
+
+
+## <a name="AllureTestOpsProject">Project in Allure TestOps</a>
+Test-cases in the project are imported and constantly updated from the code,
+so there is no need in complex process of synchronization manual test-cases and autotests.\
+It is enough to create and update an autotest in the code and the test-case in TMS always will be in actual state.\
+Manual test-cases also can be added in TMS in case of need(via web interface or via code).
+
+<p align="center">
+  <img src="images/allure_test_ops.png" alt="AllureTestOps" width="1050">
+</p>
+
+<p align="center">
+  <img src="images/allure_tests.png" alt="AllureTests" width="1050">
+</p>
+
+# Jira integration
+<p align="center">
+  <img src="images/jira.png" alt="JiraIntegration" width="1050">
+</p>
+
 # <a name="TelegramNotifications">Telegram Notifications</a>
 Telegram bot sends a brief report to a specified telegram chat by results of each build.
 <p  align="center">
-<img src="images/telegram-bot.png" alt="TelegramNotification" width="550">
+<img src="images/telegram_bot.png" alt="TelegramNotification" width="550">
+</p>
+
+# Video of running tests
+<p align="center">
+<img src="/images/videos/iherb_videos.mp4" alt="video"/>
 </p>
