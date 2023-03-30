@@ -122,5 +122,5 @@ Telegram bot sends a brief report to a specified telegram chat by results of eac
 
 # Video of running tests
 <p align="center">
-<img src="/images/videos/iherb_videos.mp4" alt="video"/>
+<img src="/images/videos/iherb_videos.gif" alt="video"/>
 </p>
