@@ -17,6 +17,7 @@
   <code><img width="5%" title="Github" src="./images/icons/git-logo.svg"></code>
   <code><img width="5%" title="Jenkins" src="./images/icons/jenkins-logo.svg"></code>
   <code><img width="5%" title="Telegram" src="./images/icons/Telegram.svg"></code>
+  <code><img width="5%" title="Jira" src="./images/icons/jira-logo.svg"></code>
 </p>
 
 The autotests in this project are written in `Java` using `Selenide` framework.\
@@ -26,6 +27,7 @@ The autotests in this project are written in `Java` using `Selenide` framework.\
 `Selenoid` - to remote launching browsers in `Docker` containers.\
 `Allure Report` - for test results visualisation.\
 `Telegram Bot` - for test results notifications.
+`Allure TestOps` - as Test Management System.
 
 # <a name="HowToRun">Autotest scenarios (UI)</a>
 
@@ -34,6 +36,9 @@ The autotests in this project are written in `Java` using `Selenide` framework.\
 - [x] Search for Soglar productions test
 - [x] Add item to Cart test
 - [x] Check carousel of categories in Special products page
+- [x] Check that if an unauthorized person clicks on 'My account', a login form will open
+- [x] Check that Sales & Offers category in Search is visible
+- [x] Check that share widget opens
 
 All Tests are designed with a Page Object pattern
 
@@ -76,7 +81,7 @@ Main page of Allure report contains the following blocks:
 >- <code><strong>*SUITES*</strong></code> - displays distribution of tests by suites
 >- <code><strong>*CATEGORIES*</strong></code> - displays distribution of unsuccessful tests by defect types
 <p align="center">
-  <img src="images/Allure-mainPage.png" alt="AllureReportMain" width="950">
+  <img src="images/Allure_report.png" alt="AllureReportMain" width="950">
 </p>
 
 ## List of tests with steps and test artefacts
@@ -84,7 +89,7 @@ On the page the list of the tests grouped by suites with status shown for each t
 Full info about each test can be shown: tags, severity, duration, detailed steps.
 
 <p align="center">
-  <img src="images/Allure-suits.png" alt="Allure-suits" width="1150">
+  <img src="images/Allure_suits.png" alt="Allure-suits" width="1150">
 </p>
 
 # Allure TestOps integration</a>
