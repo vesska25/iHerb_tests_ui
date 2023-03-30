@@ -26,7 +26,7 @@ The autotests in this project are written in `Java` using `Selenide` framework.\
 `Jenkins` - CI/CD for running tests remotely.\
 `Selenoid` - to remote launching browsers in `Docker` containers.\
 `Allure Report` - for test results visualisation.\
-`Telegram Bot` - for test results notifications.
+`Telegram Bot` - for test results notifications.\
 `Allure TestOps` - as Test Management System.
 
 # <a name="HowToRun">Autotest scenarios (UI)</a>
@@ -81,7 +81,7 @@ Main page of Allure report contains the following blocks:
 >- <code><strong>*SUITES*</strong></code> - displays distribution of tests by suites
 >- <code><strong>*CATEGORIES*</strong></code> - displays distribution of unsuccessful tests by defect types
 <p align="center">
-  <img src="images/Allure_report.png" alt="AllureReportMain" width="950">
+  <img src="images/allure_report.png" alt="AllureReportMain" width="950">
 </p>
 
 ## List of tests with steps and test artefacts
@@ -89,10 +89,10 @@ On the page the list of the tests grouped by suites with status shown for each t
 Full info about each test can be shown: tags, severity, duration, detailed steps.
 
 <p align="center">
-  <img src="images/Allure_suits.png" alt="Allure-suits" width="1150">
+  <img src="images/allure_suits.png" alt="Allure-suits" width="1150">
 </p>
 
-# Allure TestOps integration</a>
+# Allure TestOps integration
 
 
 ## <a name="AllureTestOpsProject">Project in Allure TestOps</a>
