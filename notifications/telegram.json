@@ -3,7 +3,7 @@
     "project": "iherb_tests",
     "environment": "prod",
     "comment": "test examples for iherb.com",
-    "reportLink": "${BUILD_URL}",
+    "reportLink": "",
     "language": "en",
     "messenger": "telegram",
     "allureFolder": "allure-report/",
